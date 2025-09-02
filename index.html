@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body class="bg-black">
+
+  <!-- NavBar starts from here -->
+
+  <nav class="navbar fixed-top bg-black navbar-expand-lg m-0 pb-0">
+    <div class="container nav">
+      <a class="navbar-brand" href="#">
+        <img src="images\portfolio logo.png" alt="logo" class="navbar-logo">
+      </a>
+      <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-0 mb-lg-0 gap-2">
+          <li class="nav-item">
+            <a class="nav-link text-light active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light active" aria-current="page" href="#service">Service</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button" class="btn mybtn bg-purple rounded-0 text-uppercase"><a href="#contact"
+            class="text-white text-decoration-none">Let's Talk</a></button>
+
+          
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section goes here -->
+  <main>
+    <section class="hero-section d-flex align-items-center py-5" id="home">
+      <div class="container py-5">
+        <div class="row align-items-center gap-4 gap-lg-0">
+          <div class="col-lg-6 mt-4">
+            <span class="text-uppercase text-white main-txt">Hello I'm</span>
+
+            <!-- <h1 class="text-capitalize text-white">web designer & <span
+                class="text-capitalize txt-purple">developer</span></h1> -->
+
+            <h1 class="text-capitalize txt-purple">web <span class="text-capitalize txt-purple speed-text"></span></h1>
+
+            <p class="txt-grey para my-4">I craft websites that are as functional as they are beautiful.
+              From concept to launch, I help ideas grow into experiences people remember.</p>
+            <button type="button" class="btn mybtn bg-purple rounded-1 text-uppercase"> <a href="#service"
+                class="text-white text-decoration-none">view more</a></button>
+          </div>
+          <div class="col-lg-6">
+            <div class="image-container mx-auto">
+              <!-- <img src="images\pp-removebg-preview.png" alt="" srcset=""> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+
+
+    <section class="section-container" id="about">
+
+      <div class="container text-center">
+
+        <span class="text-uppercase text-light main-txt">let me introduce myself</span>
+
+        <h2 class="text-uppercase txt-purple fw-semibold">about me</h2>
+
+        <div class="d-flex justify-content-center">
+          <div class="abt-content-body border border-dark rounded-4">
+
+            <h5 class="text-white mt-4 mb-2">A story of creativity and precision</h5>
+
+            <div class="d-flex justify-content-center">
+              <p class="txt-grey abt-content">Hi, I'm <span class="text-uppercase txt-purple marked-word">divya</span>,
+                a
+                developer and
+                designer dedicated to building modern, user-focused digital experiences. I combine clean code with
+                thoughtful design to create solutions that are both visually compelling and technically robust. My goal
+                is
+                simple: to turn complex ideas into seamless, impactful products.</p>
+            </div>
+
+            <h5 class="text-white text-capitalize mt-1 mb-2">contact</h5>
+            <p class="txt-grey">Do you have a project in mind or just want to say hello? I’d love to hear from you.
+              <a href="#" class="txt-purple text-decoration-none d-block">anothersideofdivya@gmail.com 📧</a>
+            </p>
+            <button type="button" class="btn mybtn bg-purple rounded-0 text-uppercase mb-4"><a href="#contact"
+                class="text-white text-decoration-none">hire me</a></button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+        <!-- not gonna use below code with two section -->
+
+      <!-- <div class="container py-5 mt-2">
+        
+        <div class="row align-items-center gap-4 gap-lg-0">
+         
+          <div class="col-lg-6 glow d-flex justify-content-center order-last order-lg-first">
+            <img src="images\about p.jpeg" alt="" class="about-me-img">
+          </div>
+         
+          <div class="col-lg-6">
+            <span class="text-uppercase text-white main-txt">let me introduce myself</span>
+
+            <h2 class="text-uppercase txt-purple fw-semibold">about me</h2>
+
+            <h5 class="text-white mt-5 mb-2">A story of creativity and precision</h5>
+            <p class="txt-grey para">Hi, I'm <span class="text-uppercase txt-purple marked-word">divya</span>, a
+              developer and
+              designer dedicated to building modern, user-focused digital experiences. I combine clean code with
+              thoughtful design to create solutions that are both visually compelling and technically robust. My goal is
+              simple: to turn complex ideas into seamless, impactful products.</p>
+
+            <h5 class="text-white text-capitalize mt-5 mb-2">contact</h5>
+            <p class="txt-grey para">Do you have a project in mind or just want to say hello? I’d love to hear from you.
+              <a href="#" class="txt-purple text-decoration-none d-block">anothersideofdivya@gmail.com 📧</a>
+            </p>
+            <button type="button" class="btn mybtn bg-purple rounded-0 text-uppercase"><a href="#contact" class="text-white text-decoration-none">hire me</a></button>
+          </div>
+        </div>
+      </div> -->
+
+    </section>
+
+    <!-- services section -->
+
+    <section class="section-container" id="service">
+      <div class="container text-center">
+
+        <span class="text-uppercase text-white main-txt">what will i do for you</span>
+        <h2 class="text-uppercase txt-purple fw-semibold">services</h2>
+
+        <div class="row mt-4 gap-4 gap-lg-0">
+
+          <div class="col-lg-4">
+            <div class="card bg-dark-blue py-5 glow hover-card">
+              <div class="card-body">
+                <i class="fa-solid fa-desktop fs-1 txt-purple mb-4"></i>
+                <h5 class="card-title text-white text-capitalize fs-4 mb-3">web design</h5>
+                <p class="card-text txt-grey">Delivering bespoke web design solutions that blend aesthetics with
+                  usability, ensuring your brand stands out with a seamless online experience</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-dark-blue py-5 glow hover-card">
+              <div class="card-body">
+                <i class="fa-solid fa-pen-ruler fs-1 txt-purple mb-4"></i>
+                <h5 class="card-title text-white text-uppercase fs-4 mb-3">ui & ux design</h5>
+                <p class="card-text txt-grey">Creating intuitive UI/UX designs that prioritize user needs, combining
+                  functionality and aesthetics to deliver seamless, engaging digital experiences.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card bg-dark-blue py-5 glow hover-card">
+              <div class="card-body">
+                <i class="fa-solid fa-file-code fs-1 txt-purple mb-4"></i>
+                <h5 class="card-title text-white text-capitalize fs-4 mb-3">web development</h5>
+                <p class="card-text txt-grey">developing fast, responsive, and scalable websites with functionality,
+                  seamless experiences across all devices.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Projects Section -->
+
+    <section class="section-container" id="projects">
+      <div class="container text-center">
+
+        <span class="text-uppercase text-white main-txt">some of my works</span>
+        <h2 class="text-uppercase txt-purple fw-semibold">projects</h2>
+
+        <div class="row py-5 justify-content-center gap-5 gap-lg-2">
+
+          <div class="col-lg-4 mycard">
+            <div class="card bg-dark-blue glow">
+              <img src="images\project4.jpg" class="card-img-top" alt="news-website">
+              <div class="card-body text-center">
+                <h5 class="card-title text-uppercase text-white">news app Website</h5>
+                <p class="card-text txt-grey">A responsive news app that delivers the latest headlines with a clean,
+                  user-friendly design.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mycard">
+            <div class="card bg-dark-blue glow">
+              <img src="images\project4.jpg" class="card-img-top" alt="url shortner">
+              <div class="card-body text-center">
+                <h5 class="card-title text-uppercase text-white">url shortner</h5>
+                <p class="card-text txt-grey">A fast, responsive, and reliable URL shortener with custom aliases and
+                  detailed click analytics.</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mycard">
+            <div class="card bg-dark-blue glow">
+              <img src="images\project4.jpg" class="card-img-top" alt="traify">
+              <div class="card-body text-center">
+                <h5 class="card-title text-white">TRAIFY: A Blog Website</h5>
+                <p class="card-text txt-grey">A clean, responsive blog website with easy content management and engaging
+                  user experience.</p>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section -->
+
+    <section class="section-container" id="contact">
+      <div class="contianer text-center">
+        <span class="text-uppercase text-white main-txt">I’d love to connect and collaborate.</span>
+        <h2 class="text-uppercase txt-purple fw-semibold">contact</h2>
+
+
+        <form action="https://api.web3forms.com/submit" method="POST"
+          class="bg-purple mx-auto py-3 my-5 rounded-1 px-5">
+          <input type="hidden" name="access_key" value="f75bcd89-4939-4660-9751-ed209272bb90">
+
+          <div class="mb-4">
+            <input type="text" name="name" class="form-control py-2" id="exampleInputyourName" placeholder="Your Name">
+          </div>
+          <div class="mb-4">
+            <input type="email" name="email" class="form-control py-2" id="exampleInputEmail1"
+              aria-describedby="emailHelp" placeholder="Your Email Address">
+          </div>
+          <div class="mb-4">
+            <input type="text" name="Subject" class="form-control py-2" id="exampleInputText1"
+              placeholder="Your Subject">
+          </div>
+          <div class=" mb-4">
+            <textarea  type="text" name="Message" class="form-control" placeholder="Write Your Message" id="exampleInputYourMessage"></textarea>
+            <!-- <label for="floatingTextarea">Write Your Message</label> -->
+          </div>
+
+          <button type="submit" class="btn bg-black text-white">Submit</button>
+        </form>
+
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- footer -->
+
+  <footer class="">
+    <div class="container">
+
+      <div class="line"></div>
+
+      <div class="row my-3">
+        <div class="col-lg-6 d-flex justify-content-center">
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-facebook-f txt-purple fs-5"></i>
+          </a>
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-twitter bg-purple fs-5"></i>
+          </a>
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-instagram txt-purple fs-5"></i>
+          </a>
+          <a href="#" class="ms-3">
+            <i class="fa-brands fa-linkedin txt-purple fs-5"></i>
+          </a>
+        </div>
+
+        <div class="col-lg-6 text-lg-end text-center">
+          <p class="txt-grey">copyright &copy; 2025- All rights are reserved</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- rest of the work on this website:-
+        
+        1. Change the photos in project section.
+        2. Link your facebook,insta, linkdln on footer's icon.  
+-->
+
